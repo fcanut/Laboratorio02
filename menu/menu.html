@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        /* Estilos para el cuerpo del documento */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+            padding: 0; /* Elimina el padding predeterminado del cuerpo */
+            background-color: #f2f2f2;
+        }
+
+        /* Estilos para el h1 */
+        h1 {
+            text-align: center; /* Centrar el h1 horizontalmente */
+            background-color: #8a4040; /* Color de fondo de la barra */
+            padding: 10px; /* Añadir un espacio entre el texto y la barra */
+            margin: 0; /* Elimina los márgenes predeterminados del h1 */
+            color: #fff; /* Color del texto del h1 */
+        }
+
+        /* Estilos para la barra de navegación */
+        #Barra {
+            background-color: #cd9c51;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilos para la lista ordenada (ol) */
+        ol {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para los elementos de la lista (li) */
+        li {
+            display: inline;
+            margin-right: 20px; /* Margen derecho entre elementos */
+            margin-bottom: 50px; /* Margen hacia abajo (espacio vertical) */
+        }
+
+        /* Estilos para los enlaces (a) */
+        li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 18px; /* Tamaño de las letras */
+        }
+
+        /* Estilos para el contenedor de imágenes */
+        .fondo-imagen {
+            position: relative; /* Establecer posición relativa para poder usar posición absoluta en el hijo */
+            width: 100%;
+            height: 100%;
+            text-align: center; /* Centrar el contenido horizontalmente */
+        }
+
+        /* Estilos para la primera imagen (marianogalvez) */
+        .imagen-mariano {
+            position: absolute;
+            top: 7.5%; /* Centrar verticalmente la imagen */
+            left: 50%; /* Centrar horizontalmente la imagen */
+            transform: translate(-50%, -50%); /* Ajustar el centro de la imagen */
+            width: 300px;
+            height: 150px;
+            z-index: 1; /* Asegurar que la imagen esté en una capa superior */
+        }
+    </style>
+</head>
+<body>
+    
+    <div style="text-align: center;">
+    
+        <h1>Menu Restaurante UMG</h1>
+        <div class="barra-color"></div>
+    </div>
+    
+    
+    <nav id="Barra">
+        <ol>
+            <li><a href="Entradas.html" title="Entradas">Entradas</a></li>
+            <li><a href="Platos_principales.html" title="Platos_principales">Platos principales</a></li>
+            <li><a href="Ensaladas.html" title="Ensaladas">Ensaladas</a></li>
+        </ol>
+    </nav>
+    <div class="fondo-imagen">
+        <img src="https://logotipoz.com/wp-content/uploads/2022/11/mariano-galves-sin-fondo-1.webp" alt="umg" class="imagen-mariano">
+        <img src="https://png.pngtree.com/thumb_back/fw800/background/20230516/pngtree-room-in-a-restaurant-with-wooden-chairs-and-wooden-tables-image_2548275.png" alt="Descripción de la imagen" width="100%" height="100%">
+    </div>
+</body>
+</html>
+
+
